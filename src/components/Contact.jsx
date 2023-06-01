@@ -58,7 +58,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="xl:mt-12 xl:flex-row flex-col flex gat-10 overflow-hidden">
+    <div className="xl:mt-12 xl:flex-row flex-col flex gat-10 overflow-hidden justify-center">
       
       <motion.div 
         variants={slideIn('right', 'tween', 0.2, 1)}
@@ -79,7 +79,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
